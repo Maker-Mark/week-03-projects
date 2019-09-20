@@ -133,6 +133,7 @@ class App extends Component {
     } catch (error) {
       return "Error!";
     }
+
     this.setState({
       cityList: cityRes
     });
